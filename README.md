@@ -1,18 +1,25 @@
 # Plus61
 💻The data resources, prototype, videos for GovHack 2020
 
+Mind Graph:
+![Alt text](data_resource/visualization/mind.png)
+
+
 # 🎞Introduction Video:
 v1.0<br/>
 https://www.powtoon.com/s/fvpFfmAhFK7/1/m
 
-
-# 📃Google File:<br/>
-https://docs.google.com/spreadsheets/d/1VAp4jPH8HeI9AGZsCGrvxGtzUAFZmNkaXpyi2igB4pQ/edit?usp=sharing
-
-
 # 🚲Prototype:
 App for elder: v1.0<br/>
 https://modao.cc/app/1adfd43c7be18bb80bd39a8f401cc337b95ccae4?simulator_type=outside_artboard&sticky
+
+# Tableau Visualization
+https://public.tableau.com/profile/masoom.patel#!/vizhome/billions_saved_govhack/GovHack?publish=yes
+
+# 📃Google File:
+https://docs.google.com/spreadsheets/d/1VAp4jPH8HeI9AGZsCGrvxGtzUAFZmNkaXpyi2igB4pQ/edit?usp=sharing
+
+
 
 <br/>
 Basic data analyze, visualization and conclusion<br/>
