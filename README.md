@@ -17,9 +17,9 @@ https://modao.cc/app/1adfd43c7be18bb80bd39a8f401cc337b95ccae4?simulator_type=out
 <br/>
 Basic data analyze, visualization and conclusion<br/>
 
-![Alt text](/1.png)
+![Alt text](data_resource/visualization/1.png)
 
-![Alt text](/2.png)
+![Alt text](data_resource/visualization//2.png)
 <br/>
 Conclusion By Lingzhi：
 <br/>
