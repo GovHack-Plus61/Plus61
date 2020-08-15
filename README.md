@@ -22,8 +22,8 @@ https://docs.google.com/spreadsheets/d/1VAp4jPH8HeI9AGZsCGrvxGtzUAFZmNkaXpyi2igB
 
 
 <br/>
-## ✏Basic data analyze, visualization and conclusion<br/>
-
+## ✏Basic data analyze, visualization and conclusion
+<br/>
 ![Alt text](data_resource/visualization/1.png)
 
 ![Alt text](data_resource/visualization//2.png)
@@ -35,6 +35,7 @@ It shows a trend that older people need more supportive aged care services. Ther
 
 <br/>
 Aged care user experience.xls
+<br/>
 - Conclusion By Yixuan：
 <br/>
 I mainly looked into old people's user experience in the aged care institutions. Based on the data we acquired, it's clear that for old people with serious life disability like, mobility difficulty, Alzheimers, there is still very large portion of that group holding a neutral (neither satisfied nor dissatisfied) attitude to the service of aged care institutions. That supports our thought to develop such a App.
