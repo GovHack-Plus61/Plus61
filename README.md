@@ -1,14 +1,13 @@
 # Plus61
 💻The data resources, prototype, videos for GovHack 2020
 
-📃Google File:<br/>
-https://docs.google.com/spreadsheets/d/1VAp4jPH8HeI9AGZsCGrvxGtzUAFZmNkaXpyi2igB4pQ/edit?usp=sharing
-
-
-
-🎞Video:
+🎞Introduction Video:
 v1.0<br/>
 https://www.powtoon.com/s/fvpFfmAhFK7/1/m
+
+
+📃Google File:<br/>
+https://docs.google.com/spreadsheets/d/1VAp4jPH8HeI9AGZsCGrvxGtzUAFZmNkaXpyi2igB4pQ/edit?usp=sharing
 
 
 🚲Prototype:
