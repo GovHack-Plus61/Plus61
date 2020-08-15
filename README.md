@@ -13,7 +13,7 @@ https://www.powtoon.com/s/fvpFfmAhFK7/1/m
 App for elder: v1.0<br/>
 https://modao.cc/app/1adfd43c7be18bb80bd39a8f401cc337b95ccae4?simulator_type=outside_artboard&sticky
 
-# Tableau Visualization
+# 📊Tableau Visualization
 https://public.tableau.com/profile/masoom.patel#!/vizhome/billions_saved_govhack/GovHack?publish=yes
 
 # 📃Google File:
@@ -37,4 +37,4 @@ It shows a trend that older people need more supportive aged care services. Ther
 Aged care user experience.xls
 Conclusion By Yixuan：
 <br/>
-I switch the problem onto the aged care user experience because if we prove that the experience is not satisfactory, which can also prove our thought. And I discovered that for the old people with serious life disability like mobility difficulty and Alzheimers. There is still very large portion of that group holding a neutral(not satisfied and not dissatisfied) attitude to the service of aged care institutions.
+I mainly looked into old people's user experience in the aged care institutions. Based on the data we acquired, it's clear that for old people with serious life disability like, mobility difficulty, Alzheimers, there is still very large portion of that group holding a neutral (neither satisfied nor dissatisfied) attitude to the service of aged care institutions. That supports our thought to develop such a App.
