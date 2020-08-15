@@ -1,11 +1,11 @@
 # Plus61
 💻The data resources, prototype, videos for GovHack 2020
 
-Mind Graph:
+## 💡Mind Graph:
 ![Alt text](data_resource/visualization/mind.png)
 
 
-# 🎞Introduction Video:
+## 🎞Introduction Video:
 v1.0<br/>
 https://www.powtoon.com/s/fvpFfmAhFK7/1/m
 
