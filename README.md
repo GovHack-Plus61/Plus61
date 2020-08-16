@@ -19,12 +19,14 @@ https://docs.google.com/document/d/1jfTuS7_kJKLwCHeCc9loW6zLhLrwf3_AUQ-ydy92nqw/
 
 
 
-## Introduction
+# Introduction
 ## Demand Background
-In 2017, there were 3.8 million Australians aged 65 and over, comprising 15% of the total population. In the year ending 30 June 2019, the number of people aged 65 years and over increased by 125,400 people (or 3.2%). Over the twenty years between 1999 and 2019, the proportion of the aged population has increased from 12.3% to 15.9%. <br/>
+In 2017, there were 3.8 million Australians aged 65 and over, comprising 15% of the total population. In the year ending 30 June 2019, the number of people aged 65 years and over increased by 125,400 people (or 3.2%). Over the twenty years between 1999 and 2019, the proportion of the aged population has increased from 12.3% to 15.9%. 
+<br/>
 ![Alt text](data_resource/visualization/1-1-1.png)
 <br/>
-However, the bed ratio per 1000 people aged 65 continues to decline. The resources allocated for aged people demonstrated a decreasing trend, as the picture shows below.<br/>
+However, the bed ratio per 1000 people aged 65 continues to decline. The resources allocated for aged people demonstrated a decreasing trend, as the picture shows below.
+<br/>
 ![Alt text](data_resource/visualization/1-1-2.png)
 <br/>
 (from https://gen-agedcaredata.gov.au/Topics/Care-needs-in-aged-care)<br/>
@@ -59,7 +61,7 @@ Australian ecommerce market is expanding promptly. The market size will rise fro
 Due to the social distancing rule, using medicine deliveries instead of going to the hospital is safer.
 
 
-## Architectural and component-level design
+# Architectural and component-level design
 This App has two ends, one for clients and another for business. Users use the client version to place orders, consult with AI doctors, and so on. Hospitals or clinics use business end to receive orders and fulfill customer requirements.
 <br/>
 ![Alt text](data_resource/visualization/2-1.png)
@@ -67,5 +69,17 @@ This App has two ends, one for clients and another for business. Users use the c
 
 
 # User interface design
+## User end
+Modao prototype <br/>
+Source of Health Articles in our APP <br/>
+https://www.sharecare.com/static/health-articles
+<br/>
+Graph 3-1 shows the home page. There is some basic information about the elder, including name, age, sex, disease history, address and bioinformation, such as fingerprint and face image. And there is also an Emergency button where elder can click whenever he or she faces an emergency. This emergency button is much more convenient since the basic information and medical records stored in APP, as shown as Graph 3-9, can help doctors to understand elder’s condition efficiently. 
+<br/>
+Graph 3-2 shows two functions in the Medical modules, Online Doctor and HealthCare Assistant. Graph 3-3 to Graph 3-4 shows the function of HealthCare Assistant. Elders are always interested in health knowledge, but there is too much news of pseudoscience. Therefore, HealthCare Assistant will provide scientific health articles and a platform to ask health questions. Graph 3-5 to Graph 3-7 are interfaces of Online Doctor. Through Preliminary Diagnosis function, the AI doctor trained by disease symptom dataset will preliminary classify diseases and diagnose the severity of disease. If the elder is in a not serious situation, a doctor will detailedly diagnose and prescribe medicine via online consultant.  If in a serious situation, the APP will automatically appoint a hospital and traffic for elder to get face-to-face treatment as soon as possible. 
+<br/>
+After the diagnosis, the medicines prescribed by the doctor will be delivered to the elder’s house through the Medical Delivery function. Our APP collects location information of pharmacies from map databases and other features of pharmacies, such as inventory and optimizes the best delivery schema in order to deliver medicines efficiently. When medicines are delivered, the biometric information, such as face image or fingerprint can be used for identification.
+<br/>
+
 
 
