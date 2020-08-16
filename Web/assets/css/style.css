@@ -1,0 +1,1013 @@
+/* ================================
+    Template name: Appli;
+    Template Version: v1.0.0;
+================================ */
+
+
+/* ================================
+    *CSS INDEX
+    *BASE CSS
+    *HEADER AREA CSS
+    *HERO AREA CSS
+    *SERVICE AREA CSS
+    *FEATURE AREA CSS
+    *BENEFIT AREA CSS
+    *VIDEO AREA CSS
+    *BUSINESS AREA CSS
+    *PRICE AREA CSS
+    *COUNTING AREA CSS
+    *TESTIMONIAL AREA CSS
+    *DOWNLOAD AREA CSS
+    *CONTACT AREA CSS
+    *FOOTER AREA CSS
+================================ */
+
+
+/* ================================
+    *BASE CSS
+================================ */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #5A5A5A;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+a:hover { text-decoration: none }
+
+.margin-60 {
+    margin-top: 60px;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 99999999999999;
+    height: 100%;
+}
+
+#status {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 99999999999999;
+}
+
+#status img {
+    height: 150px;
+    width: 150px;
+}
+
+/* ================================
+    *HEADER AREA CSS
+================================ */
+
+.main-header.header-absolute {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    background: transparent;
+}
+
+.main-header {
+    padding: 60px 0;
+    background: #000;
+}
+
+.mainmenu {
+    padding: 6px 0;
+}
+
+.mainmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+    padding: 0 13px;
+}
+
+.mainmenu li a {
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    transition: all .3s;
+}
+
+.mainmenu li a:hover {
+    border-bottom: 2px solid #2D8EFF;
+}
+
+/* ================================
+    *HERO AREA CSS
+================================ */
+
+.hero-area {
+    background-image: url(../img/hero-area-bg.jpg);
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+    display: table;
+}
+
+.hero-area-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px solid #D5D6D8;
+}
+
+.hero-area-content {
+    color: #fff;
+    padding-top: 160px;
+}
+
+.hero-area-content h1 {
+    font-size: 45px;
+    line-height: 53px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+a.default-btn {
+    display: inline-block;
+    background: #2D8EFF;
+    color: #fff;
+    font-weight: 600;
+    padding: 11px 37px;
+    border-radius: 15px;
+    margin-top: 25px;
+    transition: all .3s;
+}
+
+a.video-play {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.video-play i:before {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    transition: all 2s;
+}
+
+.video-play:hover i:before {
+    color: #2D8EFF;
+}
+
+.hero-area-btn {
+    display: inline-block;
+}
+
+.hero-area-btn a {
+    color: #fff;
+}
+
+.hero-area-btn p {
+    display: inline-block;
+    cursor: pointer;
+}
+
+a.default-btn:hover {
+    -webkit-box-shadow: 0px 18px 26px -9px #2D8EFF;
+    -moz-box-shadow: 0px 18px 26px -9px #2D8EFF;
+    box-shadow: 0px 0px 26px -9px #2D8EFF;
+}
+
+.hero-area-btn a.video-play {
+    margin-top: 7px;
+}
+
+/* ================================
+    *SERVICE AREA CSS
+================================ */
+
+.service-area {
+    padding: 100px 0;
+}
+
+.service-content h2 {
+    font-size: 35px;
+    color: #1c1f28;
+    margin-bottom: 15px;
+}
+
+.service-content {
+    padding-bottom: 35px;
+}
+
+.single-service-item {
+    padding: 80px 55px 45px 55px;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    transition: all .3s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+}
+
+.service-icon i:before {
+    font-size: 70px;
+    margin: 0;
+    color: #707070;
+    transition: all .3s;
+}
+
+.service-icon {
+    margin-bottom: 30px;
+}
+
+.single-service-item h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.single-service-item:hover {
+    border-color: #2d8eff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.16);
+}
+
+.single-service-item:hover .service-icon i:before {
+    color: #2d8eff;
+}
+
+/* ================================
+    *FEATURE AREA CSS
+================================ */
+
+.feature-area {
+    padding: 100px 0;
+    background-color: #F4F9FF;
+    z-index: 2;
+    position: relative;
+}
+
+.single-feature-box {
+    padding: 40px 85px 20px 40px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    margin: 60px 0;
+    background-color: #fff;
+    transition: all .3s;
+    z-index: 4;
+    position: relative;
+}
+
+.feature-icon i:before {
+    color: #2d8eff;
+}
+
+.feature-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border: 1px solid #2d8eff;
+    border-radius: 50%;
+    background: #DFEEFF;
+    margin-bottom: 15px;
+}
+
+.single-feature-box h3 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.feature-icon i.flaticon-brain:before {
+    margin: 21px;
+}
+
+.feature-btn a.default-btn {
+    padding: 15px 35px;
+    margin-top: 50px;
+}
+
+.single-feature-box:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.16);
+}
+
+.feature-border {
+    border: 2px dashed #9BC0EC;
+    border-radius: 50%;
+    width: 625px;
+    height: 625px;
+    z-index: -1;
+    position: absolute;
+    left: -130px;
+    top: 66px;
+    text-align: center;
+}
+
+.feature-mobile {
+    position: relative;
+    z-index: 2;
+}
+
+.feature-mobile img {
+    z-index: 3;
+}
+
+.single-feature-box:hover .feature-icon {
+    background: #2d8eff;
+}
+
+.single-feature-box:hover .feature-icon i:before {
+    color: #fff;
+}
+
+/* ================================
+    *BENEFIT AREA CSS
+================================ */
+
+.benefit-area {
+    padding: 100px 0;
+}
+
+.benefit-area-heading h2 {
+    color: #1c1f28;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.benefit-area-heading {margin-bottom: 60px;}
+
+.benefit-icon i:before {
+    font-size: 50px;
+    color: #2d8eff;
+    margin: 0;
+}
+
+.benefit-icon {
+    margin-bottom: 30px;
+}
+
+.single-benefit-box h3 {
+    color: #1c1f28;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.single-benefit-box {
+    padding: 60px 55px 35px 55px;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 25px;
+    transition: all .3s;
+}
+
+.single-benefit-box:hover {
+    background: #2d8eff;
+    color: #fff;
+}
+
+.single-benefit-box:hover .benefit-icon i:before, .single-benefit-box:hover h3 {
+    color: #fff;
+}
+
+/* ================================
+    *VIDEO AREA CSS
+================================ */
+
+.video-mobile {
+    background-image: url(../img/video-mobile-bg.jpg);
+    height: 366px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 1;
+}
+
+.video-heading h2 {
+    font-size: 35px;
+    color: #1c1f28;
+    margin-bottom: 15px;
+}
+
+.video-heading {
+    padding-bottom: 35px;
+}
+
+.video-mobile-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.video-mobile-wrap i:before {
+    font-size: 50px;
+    color: #fff;
+    transition: all .3s;
+    margin: 0;
+    position: relative;
+    z-index: 99;
+    top: 7px;
+    right: 12px;
+}
+
+.video-play-button {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: #2D8EFF;
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 90px;
+  height: 90px;
+  background: #2D8EFF;
+  border-radius: 50%;
+  transition: all 200ms;
+  opacity: .5;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* ================================
+    *BUSINESS AREA CSS
+================================ */
+
+.business-img-1 {background-image: url(../img/business-img-1.jpg);}
+.business-img-2 {background-image: url(../img/business-img-2.jpg);}
+.business-img-3 {background-image: url(../img/business-img-3.jpg);}
+
+.business-area {
+    padding: 100px 0;
+}
+
+.business-heading h2 {
+    font-size: 35px;
+    color: #1c1f28;
+    margin-bottom: 15px;
+}
+
+.business-heading {
+    margin-bottom: 50px;
+}
+
+.single-business-img {
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.business-img {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 165px;
+    width: 100%;
+    transition: all .3s;
+}
+
+.single-business-box {
+    border-radius: 25px;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.16);
+}
+
+.single-business-box:hover .business-img {
+    transform: scale(1.1);
+}
+
+.business-box-content {
+    padding: 30px 40px 20px 40px;
+}
+
+.business-box-content h3 {
+    color: #1C1F28;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+/* ================================
+    *PRICE AREA CSS
+================================ */
+
+.price-area {
+    padding-bottom: 100px;
+}
+
+.price-area-heading h2 {
+    font-size: 35px;
+    color: #1C1F28;
+    margin-bottom: 15px;
+}
+
+.price-area-heading {
+    margin-bottom: 50px;
+}
+
+.single-price-heading h4 {
+    font-size: 25px;
+    color: #1c1f28;
+}
+
+.single-price-heading h4 span {
+    display: block;
+    font-size: 35px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.single-price-heading h4 span:after {
+    position: absolute;
+    left: 60px;
+    bottom: 8px;
+    content: "/month";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.single-price-icon {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 45px;
+    height: 100px;
+    width: 100px;
+    background: #2d8eff;
+    line-height: 100px;
+    border-radius: 50%;
+}
+
+.single-price-icon i:before {
+    font-size: 45px;
+    color: #fff;
+}
+
+.single-price-heading {
+    border-bottom: 1px solid #DBDBDB;
+    padding: 50px 0 40px 0;
+}
+
+.single-price-icon i.flaticon-startup, .single-price-icon i.flaticon-air-freight {
+    margin-left: 8px;
+}
+
+.price-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.price-menu ul li {
+    line-height: 2;
+}
+
+.price-menu i:before {
+    font-size: 10px;
+    color: #15db95;
+    margin-left: 0;
+}
+
+.price-menu i.flaticon-tick.last {
+    float: right;
+}
+
+.price-menu i.flaticon-play {
+    margin-right: 15px;
+}
+
+.price-menu {
+    padding: 25px 0;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.single-price-box a.default-btn {
+    padding: 16px 37px;
+    margin: 40px 0 50px 0;
+}
+
+.single-price-box {
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 25px;
+    padding: 0 25px;
+    transition: all .3s;
+}
+
+.pricing-btn {
+    text-align: center;
+}
+
+.single-price-box:hover {
+    background-color: #2d8eff;
+    color: #fff;
+}
+
+.single-price-box:hover .single-price-heading h4 {
+    color: #fff;
+}
+
+.single-price-box:hover .single-price-icon {
+    background: #fff;
+}
+
+.single-price-box:hover .single-price-icon i:before {
+    color: #2d8eff;
+}
+
+.single-price-box:hover .price-menu i:before {
+    color: #fff;
+}
+
+.single-price-box:hover .pricing-btn a.default-btn {
+    background: #fff;
+    color: #2d8eff;
+}
+
+.single-price-box.active {
+    background: #2D8EFF;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.single-price-box.active .single-price-heading h4 {
+    color: #fff;
+}
+
+.single-price-box.active li i:before {
+    color: #fff;
+}
+
+.single-price-box.active .single-price-icon {
+    background: #fff;
+    top: 40px;
+    right: 40px;
+}
+
+.single-price-box.active .single-price-icon i:before {
+    color: #2D8EFF;
+}
+
+.single-price-box.active .pricing-btn a.default-btn {background: #fff;color: #2D8EFF;}
+
+.active .single-price-heading:after {
+    content: "OFFER";
+    position: absolute;
+    right: -30px;
+    top: 17px;
+    color: #Fff;
+    background: #15DB95;
+    transform: rotate(45deg);
+    padding: 0px 40px;
+    font-size: 14px;
+}
+
+.single-price-heading h4 span.margin:after {
+    left: 65px;
+}
+
+/* ================================
+    *COUNTING AREA CSS
+================================ */
+
+.counting-area {
+    padding: 100px 0;
+    background-color: #F4F9FF;
+}
+
+.single-counting-number {
+    position: relative;
+    z-index: 1;
+    padding-right: 20px;
+}
+
+.single-counting-number h1 {
+    color: #1C1F28;
+    font-size: 55px;
+    display: inline-block;
+}
+
+.single-counting-number h4 {
+    font-size: 25px;
+    color: #1c1f28;
+    margin-top: 10px;
+}
+
+.single-counting-number:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #B1B3B6;
+    content: "";
+}
+
+.single-counting-number.border-none:after {
+    display: none;
+}
+
+.single-counting-number span {
+    font-size: 55px;
+    font-weight: 400;
+    color: #1C1F28;
+}
+
+/* ================================
+    *TESTIMONIAL AREA CSS
+================================ */
+
+.testimonial-area {
+    padding: 100px 0 125px 0;
+}
+
+.tesimonial-heading h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.tesimonial-heading {
+    margin-bottom: 50px;
+}
+
+.single-testimonial-carousel img {
+    max-width: 50px;
+    display: inline-block;
+}
+
+.single-testimonial-carousel h5 {font-size: 16px;font-weight: 500;color: #1c1f28;margin-left: 60px;margin-top: -40px;}
+
+.single-testimonial-carousel h5 span {
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+}
+
+.single-testimonial-carousel {
+    padding-left: 110px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 25px;
+    margin: 10px;
+    position: relative;
+}
+
+.single-testimonial-carousel:before {
+    position: absolute;
+    left: 9%;
+    top: 44%;
+    content: "\f10a";
+    font-family: Flaticon;
+    font-size: 30px;
+    color: #2d8eff;
+}
+
+.single-testimonial-carousel:after {
+    position: absolute;
+    left: 24%;
+    top: 40px;
+    height: 125px;
+    width: 1px;
+    background: #B7B7B7;
+    content: "";
+}
+
+.testimonial-carousel .owl-dots div {
+    display: inline-block;
+    background: #B5D7FF;
+    height: 5px;
+    width: 15px;
+    margin: -10px 3px;
+    border-radius: 5px;
+}
+
+.testimonial-carousel .owl-dots div.active {
+    background: #2D8EFF;
+    width: 30px;
+}
+
+.testimonial-carousel .owl-dots {
+    position: absolute;
+    left: 47%;
+}
+
+/* ================================
+    *DOWNLOAD AREA CSS
+================================ */
+
+.download-area {
+    background-image: url(../img/download-area-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    padding: 100px 0;
+}
+
+.download-content h2 {
+    font-size: 35px;
+    color: #1c1f28;
+    margin-bottom: 25px;
+}
+
+.downlaod-btn a {
+    padding: 10px;
+}
+
+.downlaod-btn {
+    margin-top: 35px;
+}
+
+/* ================================
+    *CONTACT AREA CSS
+================================ */
+
+.contact-form {
+    padding: 100px 0;
+}
+
+.contact-form h2 {
+    font-size: 35px;
+    color: #1c1f28;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+.contact-form h2:before {
+    position: absolute;
+    left: 290px;
+    bottom: -25px;
+    width: 150px;
+    height: 1px;
+    background: #8D8E93;
+    content: "";
+}
+
+.contact-form h2:after {
+    position: absolute;
+    left: 360px;
+    bottom: -30px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2D8EFF;
+    border-radius: 50%;
+    content: "";
+    background: #fff;
+}
+
+.contact-form-wrap input[type=text], .contact-form-wrap input[type=email] {
+    width: 100%;
+    border-bottom: 1px solid #8D8E93;
+    padding: 15px 0;
+}
+
+.contact-form-wrap input, .contact-form-wrap textarea {
+    border: none;
+}
+
+.contact-form-wrap input[type=submit] {
+    padding:  16px 37px;
+    background: #2d8eff;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.contact-form-wrap input[type=text] {
+    width: 100%;
+    border-bottom: 1px solid #8D8E93;
+    padding: 15px 0;
+}
+
+.contact-form-wrap input[type=text]:focus, .contact-form-wrap input[type=email]:focus {
+    border-color: #2D8EFF;
+}
+
+/* ================================
+    *FOOTER AREA CSS
+================================ */
+
+.footer-area {
+    padding-top: 70px;
+    background: #1A1C26;
+}
+
+.logo h2 a {
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-meta h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-meta ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.footer-meta li {
+    color: #fff;
+    line-height: 2;
+    transition: all .3s;
+}
+
+.footer-meta li:hover {
+    color: #2D8EFF;
+    cursor: pointer;
+}
+
+.footer-border {
+    padding: 50px 0;
+    border-bottom: 1px solid #8D8E93;
+}
+
+/* ================================
+    *COPYRIGHT AREA CSS
+================================ */
+
+.copyright-area {
+    background: #1A1C26;
+    padding: 40px 0;
+    color: #87888D;
+}

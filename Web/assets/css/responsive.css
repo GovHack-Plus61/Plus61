@@ -1,0 +1,179 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.single-service-item {
+    padding: 50px 25px;
+}
+.single-feature-box {
+    padding: 40px;
+}
+.feature-btn a.default-btn {
+    margin-top: 0;
+}
+.single-benefit-box {
+    padding: 40px;
+}
+.single-counting-number h4 {
+    font-size: 15px;
+}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.hero-area-content h1 {
+    font-size: 25px;
+}
+.hero-area-btn p {
+    margin-top: 30px;
+}
+.single-service-item {
+    padding: 50px 20px 20px 20px;
+}
+.service-icon i:before {
+    font-size: 50px;
+}
+.single-feature-box {
+    padding: 30px;
+}
+.feature-mobile {
+    margin-top: 165px;
+}
+.feature-border {
+    width: 350px;
+    height: 350px;
+    left: -75px;
+    top: 50px;
+}
+.feature-btn a.default-btn {
+    margin-top: 0;
+}
+.single-benefit-box {
+    padding: 40px;
+}
+.business-box-content {
+    padding: 20px;
+}
+.single-counting-number h4 {
+    font-size: 15px;
+}
+.contact-form h2:before {
+    left: 33%;
+}
+.contact-form h2:after {
+    left: 48%;
+}
+.single-testimonial-carousel:after {
+    top: 50px;
+}
+.single-price-icon i:before {
+    font-size: 25px;
+    margin: 15px;
+}
+.single-price-icon i.flaticon-startup, .single-price-icon i.flaticon-air-freight {
+    margin-left: 2px;
+}
+.single-price-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    right: 30px;
+}
+.single-price-heading h4 {
+    font-size: 15px;
+}
+.single-price-heading h4 span {
+    font-size: 25px;
+}
+.single-price-heading h4 span:after {
+    left: 45px;
+    bottom: 3px;
+}
+.single-price-box .single-price-icon, .single-price-box.active .single-price-icon {
+    top: 40px;
+    right: 30px;
+}
+.price-menu {
+    padding: 30px 0;
+}
+.single-price-box li i:before {
+    margin: 0;
+}
+.single-price-box li {
+    font-size: 12px;
+}
+.single-price-box a.default-btn {
+    padding: 10px 3px;
+    margin: 25px 0;
+}
+.single-feature-box h3 {
+    font-size: 17px;
+}
+.single-service-item h3 {
+    font-size: 17px;
+}
+.video-play i:before {
+    margin-left: 0;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.mainmenu {
+    display: none;
+}
+.hero-area-content h1 {
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+.hero-mobile {
+    text-align: center;
+}
+.hero-area-btn p {
+    margin-top: 20px;
+}
+.video-play i:before {
+    margin-left: 0;
+}
+.single-service-item {
+    margin-bottom: 20px;
+}
+.feature-border {
+    display: none;
+}
+.single-benefit-box {   
+    margin-bottom: 20px;
+}
+.single-business-box {
+    margin-bottom: 20px;
+}
+.single-price-box {
+    margin-bottom: 20px;
+}
+.single-counting-number {
+    margin-bottom: 40px;
+}
+.single-counting-number:after {
+    display: none;
+}
+.testimonial-carousel .owl-dots {
+    left: 67px;
+}
+.contact-form h2:before {
+    left: 27%;
+}
+.contact-form h2:after {
+    left: 47%;
+}
+.footer-meta {
+    margin-top: 25px;
+}
+.footer-meta ul {
+    margin-top: 5px;
+}
+.footer-meta li {
+    opacity: .8;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
