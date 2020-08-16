@@ -27,7 +27,7 @@ https://docs.google.com/spreadsheets/d/1VAp4jPH8HeI9AGZsCGrvxGtzUAFZmNkaXpyi2igB
 <br/>
 ![Alt text](data_resource/visualization/1.png)
 
-![Alt text](data_resource/visualization//2.png)
+![Alt text](data_resource/visualization/2.png)
 <br/>
 - Conclusion By Lingzhi：
 <br/>
