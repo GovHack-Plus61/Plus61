@@ -1,10 +1,6 @@
 # Plus61
 💻The data resources, prototype, videos for GovHack 2020
 
-## 💡Mind Graph:
-![Alt text](data_resource/visualization/2-1.png)
-
-
 ## 🎞Introduction Video:
 https://www.powtoon.com/s/fvpFfmAhFK7/1/m
 
@@ -64,5 +60,12 @@ Due to the social distancing rule, using medicine deliveries instead of going to
 
 
 ## Architectural and component-level design
+This App has two ends, one for clients and another for business. Users use the client version to place orders, consult with AI doctors, and so on. Hospitals or clinics use business end to receive orders and fulfill customer requirements.
+<br/>
+![Alt text](data_resource/visualization/2-1.png)
+<br/>
+
+
+# User interface design
 
 
