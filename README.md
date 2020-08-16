@@ -2,6 +2,7 @@
 💻The data resources, prototype, videos for GovHack 2020
 
 ## 🎞Introduction Video:
+https://www.youtube.com/watch?v=J4LAWKPYjoU
 https://www.powtoon.com/s/fvpFfmAhFK7/1/m
 
 ## 🚲Prototype:
@@ -11,8 +12,11 @@ https://modao.cc/app/1adfd43c7be18bb80bd39a8f401cc337b95ccae4?simulator_type=out
 https://modao.cc/app/d0edb08644d50203dee840ff4c600f5e8e4e32a6?simulator_type=outside_artboard&sticky
 
 ## 📊Tableau Visualization
+Millions Saved (Population and expenditure):<br/>
 https://public.tableau.com/profile/masoom.patel#!/vizhome/millions_saved_govhack/GovHack?publish=yes 
+Mobility Patient Response:<br/>
 https://public.tableau.com/profile/masoom.patel#!/vizhome/MobilityPatientResponse_GovHack/MobilityPatientsDashboard?publish=yes
+Alzheimer Patient Response:<br/>
 https://public.tableau.com/profile/masoom.patel#!/vizhome/AlzheimerPatientResponse_GovHack/AlzheimerPatientsDashboard?publish=yes
 
 ## 📃Google File:
@@ -92,6 +96,16 @@ Graph 3-2 shows two functions in the Medical modules, Online Doctor and HealthCa
 After the diagnosis, the medicines prescribed by the doctor will be delivered to the elder’s house through the Medical Delivery function. Our APP collects location information of pharmacies from map databases and other features of pharmacies, such as inventory and optimizes the best delivery schema in order to deliver medicines efficiently. When medicines are delivered, the biometric information, such as face image or fingerprint can be used for identification.
 <br/>
 ![Alt text](data_resource/visualization/3-3.png)
+![Alt text](data_resource/visualization/3-5.png)
+![Alt text](data_resource/visualization/3-7.png)
+![Alt text](data_resource/visualization/3-9.png)
+<br/>
+## Doctor end
+![Alt text](data_resource/visualization/3-2-1.png)
+<br/>
+The doctor side of CareMore would be deployed in the hospital. The emergency and normal patients list would appear on the left. The doctor could choose a patient and do online consultation in the dialog. 
+<br/>
+After the patient completes the identification confirmation, the doctor can view the current patient’s basic information, past medical records, and prescribe medication on the right. If the doctor thinks that the elderly need to go to the hospital, they can click the ‘traffic arrangement’ button to provide dedicated route support. The doctor could also click the ’medical delivery’ button to notify a courier deliver the drugs for the elderly, and the drugs would be sent to the patient directly.
 <br/>
 
 
