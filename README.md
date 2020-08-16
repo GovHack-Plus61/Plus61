@@ -26,9 +26,6 @@ https://public.tableau.com/profile/masoom.patel#!/vizhome/AlzheimerPatientRespon
 
 
 
-
-
-
 # Introduction
 ## Demand Background
 In 2017, there were 3.8 million Australians aged 65 and over, comprising 15% of the total population. In the year ending 30 June 2019, the number of people aged 65 years and over increased by 125,400 people (or 3.2%). Over the twenty years between 1999 and 2019, the proportion of the aged population has increased from 12.3% to 15.9%. 
@@ -119,6 +116,35 @@ The doctor side of CareMore would be deployed in the hospital. The emergency and
 <br/>
 After the patient completes the identification confirmation, the doctor can view the current patient’s basic information, past medical records, and prescribe medication on the right. If the doctor thinks that the elderly need to go to the hospital, they can click the ‘traffic arrangement’ button to provide dedicated route support. The doctor could also click the ’medical delivery’ button to notify a courier deliver the drugs for the elderly, and the drugs would be sent to the patient directly.
 <br/>
+
+
+
+<br/>
+Dataset below info:
+<br/>
+<br/>
+Disease Symptoms: dataset, symptoms x3 excel files （app_data）
+<br/>
+<br/>
+Visualisation (Population and Expenditure): rogs excel file (basic_data)
+<br/>
+<br/>
+Patient Responses Visualisation: aged care user experience excel file (analyze_data)
+<br/>
+<br/>
+<br/>
+Link to datasets:
+<br/>
+<br/>
+https://www.aihw.gov.au/reports/australias-welfare/aged-care
+<br/>
+<br/>
+https://www.pc.gov.au/research/ongoing/report-on-government-services/2018/community-services/aged-care-services
+<br/>
+<br/>
+https://www.kaggle.com/itachi9604/disease-symptom-description-dataset  
+
+
 
 
 
