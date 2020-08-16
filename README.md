@@ -2,8 +2,7 @@
 💻The data resources, prototype, videos for GovHack 2020
 
 ## 🎞Introduction Video:
-https://www.youtube.com/watch?v=J4LAWKPYjoU
-https://www.powtoon.com/s/fvpFfmAhFK7/1/m
+https://www.youtube.com/watch?v=DRQ9B_Xe6V4
 
 ## 📃Software Design Description:
 https://docs.google.com/document/d/1jfTuS7_kJKLwCHeCc9loW6zLhLrwf3_AUQ-ydy92nqw/edit
