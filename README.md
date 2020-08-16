@@ -49,6 +49,7 @@ Looking back to the aged care type, there are generally three types, including h
 <br/>
 Although the elder spend a lot of money in aged care institutions, the user experience doesn't go as expected. We analyzed data from a questionnaire investigation and focused on how the elder rate the service over 9 question dimensions.
 <br/>
+<br/>
 By looking into customers with serious life disabilities, like the mobility restricted group, and the Alzheimer group, we found that around 20% of two groups hold a neutral attitude towards the service they received, that is neither love it nor dislike it. 
 <br/>
 ![Alt text](data_resource/visualization/1-1-6.png)
@@ -77,12 +78,16 @@ This App has two ends, one for clients and another for business. Users use the c
 # User interface design
 ## User end
 Modao prototype <br/>
+<br/>
 Source of Health Articles in our APP <br/>
 https://www.sharecare.com/static/health-articles
 <br/>
+<br/>
 Graph 3-1 shows the home page. There is some basic information about the elder, including name, age, sex, disease history, address and bioinformation, such as fingerprint and face image. And there is also an Emergency button where elder can click whenever he or she faces an emergency. This emergency button is much more convenient since the basic information and medical records stored in APP, as shown as Graph 3-9, can help doctors to understand elder’s condition efficiently. 
 <br/>
+<br/>
 Graph 3-2 shows two functions in the Medical modules, Online Doctor and HealthCare Assistant. Graph 3-3 to Graph 3-4 shows the function of HealthCare Assistant. Elders are always interested in health knowledge, but there is too much news of pseudoscience. Therefore, HealthCare Assistant will provide scientific health articles and a platform to ask health questions. Graph 3-5 to Graph 3-7 are interfaces of Online Doctor. Through Preliminary Diagnosis function, the AI doctor trained by disease symptom dataset will preliminary classify diseases and diagnose the severity of disease. If the elder is in a not serious situation, a doctor will detailedly diagnose and prescribe medicine via online consultant.  If in a serious situation, the APP will automatically appoint a hospital and traffic for elder to get face-to-face treatment as soon as possible. 
+<br/>
 <br/>
 After the diagnosis, the medicines prescribed by the doctor will be delivered to the elder’s house through the Medical Delivery function. Our APP collects location information of pharmacies from map databases and other features of pharmacies, such as inventory and optimizes the best delivery schema in order to deliver medicines efficiently. When medicines are delivered, the biometric information, such as face image or fingerprint can be used for identification.
 <br/>
@@ -91,7 +96,9 @@ After the diagnosis, the medicines prescribed by the doctor will be delivered to
 <br/>
 Graph 3-1 shows the home page. There is some basic information about the elder, including name, age, sex, disease history, address and bioinformation, such as fingerprint and face image. And there is also an Emergency button where elder can click whenever he or she faces an emergency. This emergency button is much more convenient since the basic information and medical records stored in APP, as shown as Graph 3-9, can help doctors to understand elder’s condition efficiently. 
 <br/>
+<br/>
 Graph 3-2 shows two functions in the Medical modules, Online Doctor and HealthCare Assistant. Graph 3-3 to Graph 3-4 shows the function of HealthCare Assistant. Elders are always interested in health knowledge, but there is too much news of pseudoscience. Therefore, HealthCare Assistant will provide scientific health articles and a platform to ask health questions. Graph 3-5 to Graph 3-7 are interfaces of Online Doctor. Through Preliminary Diagnosis function, the AI doctor trained by disease symptom dataset will preliminary classify diseases and diagnose the severity of disease. If the elder is in a not serious situation, a doctor will detailedly diagnose and prescribe medicine via online consultant.  If in a serious situation, the APP will automatically appoint a hospital and traffic for elder to get face-to-face treatment as soon as possible. 
+<br/>
 <br/>
 After the diagnosis, the medicines prescribed by the doctor will be delivered to the elder’s house through the Medical Delivery function. Our APP collects location information of pharmacies from map databases and other features of pharmacies, such as inventory and optimizes the best delivery schema in order to deliver medicines efficiently. When medicines are delivered, the biometric information, such as face image or fingerprint can be used for identification.
 <br/>
@@ -104,6 +111,7 @@ After the diagnosis, the medicines prescribed by the doctor will be delivered to
 ![Alt text](data_resource/visualization/3-2-1.png)
 <br/>
 The doctor side of CareMore would be deployed in the hospital. The emergency and normal patients list would appear on the left. The doctor could choose a patient and do online consultation in the dialog. 
+<br/>
 <br/>
 After the patient completes the identification confirmation, the doctor can view the current patient’s basic information, past medical records, and prescribe medication on the right. If the doctor thinks that the elderly need to go to the hospital, they can click the ‘traffic arrangement’ button to provide dedicated route support. The doctor could also click the ’medical delivery’ button to notify a courier deliver the drugs for the elderly, and the drugs would be sent to the patient directly.
 <br/>
