@@ -5,7 +5,7 @@
 https://www.youtube.com/watch?v=J4LAWKPYjoU
 https://www.powtoon.com/s/fvpFfmAhFK7/1/m
 
-## 📃Google File:
+## 📃Software Design Description:
 https://docs.google.com/document/d/1jfTuS7_kJKLwCHeCc9loW6zLhLrwf3_AUQ-ydy92nqw/edit
 
 ## 🚲Prototype:
