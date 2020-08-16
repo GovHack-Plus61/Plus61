@@ -1,5 +1,7 @@
-# Plus61
-💻The data resources, prototype, videos for GovHack 2020
+# HomePage
+https://govhack-plus61.github.io/Plus61/
+<br/>
+
 
 ## 🎞Introduction Video:
 https://www.youtube.com/watch?v=DRQ9B_Xe6V4
